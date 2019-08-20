@@ -16,7 +16,7 @@ def get_transform(train):
     #     # and ground-truth for data augmentation
     #     transforms.append(T.RandomHorizontalFlip(0.5))
     return T.Compose(transforms)
-
+# lksddjglksjdgl lskkddjfflksdjfsd
 path = '/home/haroonrashid/Umaid/img'
 dataset = data_set(path, get_transform(train = True))
 dataset_test = data_set(path, get_transform(train=True))
